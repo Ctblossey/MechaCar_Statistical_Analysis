@@ -22,8 +22,15 @@
 
 ## T-Tests on Suspension Coils
 
-### After running the t tests, it is not probable that you would fail to reject the hypthesis of the lots being statistically different from the population mean of 1,500. This is because the p-value of 0.06 > 0.05.
+### After running the t tests, it is not probable that you would fail to reject the hypthesis of the lots being statistically different from the population mean of 1,500. This is because the p-value of 0.06 > 0.05. However, Lot 3 was the only lot to have a p-value less than 0.05. This informs you that at an individual lot level, lot 3 is significant.
 
 ![PSI T-Test](https://github.com/Ctblossey/MechaCar_Statistical_Analysis/blob/main/Images/PSI%20T-Test.png)
 
+![PSI T-Test Lot 1](https://github.com/Ctblossey/MechaCar_Statistical_Analysis/blob/main/Images/T-Test%20Lot1.png)
+
+![PSI T-Test Lot 2](https://github.com/Ctblossey/MechaCar_Statistical_Analysis/blob/main/Images/T-Test%20Lot2.png)
+
+![PSI T-Test Lot 3](https://github.com/Ctblossey/MechaCar_Statistical_Analysis/blob/main/Images/T-Test%20Lot3.png)
 ## Study Design: MechaCar vs. Competition
+
+### A study that I would perform to test against the competition is how the cars handle additional weight. My null hypothesis would be that all cars handle additional weight the same, while my alternative hypothesis would be that they do not all handle addtional weight the same. The statistical tests I would perform would be testing engine heat and mpg across the groups. This would effectively show the difference the extra weight made on the cars. A few data points needed would be weight, starting mpg, ending mpg, outside temperature, starting engine temperature, and ending engine temperature.

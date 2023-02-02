@@ -1,5 +1,9 @@
 # AutosRUs
 
+## Overview
+
+### Using R, we used the data given to us from AutosRUs to perform tests to show their distribution across lots as well as tests to examine their suspension coils.
+
 ## Linear Regression to Predict MPG
 
 ### The larget variables/coefficients that provide for the variance are vehicle weight, mpg, and ground clearnace. Given that their p-values were less than 0.05, they have significance.
@@ -17,5 +21,9 @@
 ![Lot Summary](https://github.com/Ctblossey/MechaCar_Statistical_Analysis/blob/main/Images/Lot_Summary.png)
 
 ## T-Tests on Suspension Coils
+
+### After running the t tests, it is not probable that you would fail to reject the hypthesis of the lots being statistically different from the population mean of 1,500. This is because the p-value of 0.06 > 0.05.
+
+![PSI T-Test](https://github.com/Ctblossey/MechaCar_Statistical_Analysis/blob/main/Images/PSI%20T-Test.png)
 
 ## Study Design: MechaCar vs. Competition
